@@ -18,11 +18,17 @@ const UserDetail = () => {
         }, []);
 
     return user && (<div className='userDetail'>
-        <h5>-company:{user.name}</h5>
+        <h5>-name:{user.name}</h5>
         <h5>-username:{user.username}</h5>
         <h5>-email:{user.email}</h5>
         <h5>-phone:{user.phone}</h5>
-        <h5>-website:{user.website}</h5> 
+        <h5>-company:{user.company.name}</h5>
+        <h5>-website:{user.website}</h5>
+        <h5>-address:<li>street:{user.address.street}</li>
+            <li>suite:{user.address.suite}</li>
+            <li>city:{user.address.city}</li>
+            <li>zipcode:{user.address.zipcode}</li>
+        </h5>
         <Link to='/'>Back</Link>
     </div>);
 
