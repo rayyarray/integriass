@@ -7,4 +7,13 @@
   border: 1px solid #ccc;
   text-align: center;
 }
+.userDetail{
+  width: 250px;
+  padding: 30px;
+  display: inline-table;
+  margin: 20px;
+  border: 5px solid #ddd;
+  font-weight:bold;
+  font-family:'Courier New', Courier, monospace;
 
+}
