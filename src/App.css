@@ -4,7 +4,8 @@
   padding: 20px;
   display: inline-block;
   margin: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  border-color: #CAEBF2;
   text-align: center;
 }
 .userDetail{
